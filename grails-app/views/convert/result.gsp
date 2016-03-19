@@ -1,17 +1,12 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: admin
-  Date: 3/19/16
-  Time: 20:53
---%>
-
-<%@ page contentType="text/html;charset=UTF-8" %>
+<!doctype html>
 <html>
 <head>
-    <title></title>
+    <meta name="layout" content="main"/>
+    <title>Welcome to Grails</title>
+
+    <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 </head>
-
 <body>
-
+    <h2>Euro value is: <g:formatNumber number="${euros}" type="currency" currencyCode="EUR" /></h2>
 </body>
 </html>
